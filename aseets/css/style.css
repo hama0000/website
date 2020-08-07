@@ -1,0 +1,115 @@
+@charset 'utf-8';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+}
+
+/* --- 基本ページ設定 --- */
+.side{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20vw;
+    height: 100vh;
+    background-color: #2bacff;
+}
+.main{
+    width: 80vw;
+    margin-left: 20vw;
+}
+.top{
+    height: 100vh;
+    background-color: #f7f6f5;
+}
+
+/* --- サイドバー設定 --- */
+.side h1{
+    font-size: 1.8rem;
+    color: white;
+    margin: 2rem auto 0 auto;
+}
+.side h1 a{
+    font-size: 1.8rem;
+    color: white;
+}
+.side-list{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 3rem;
+}
+.side li{
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+.side li a{
+    font-size: 1.25rem;
+    color: white;
+}
+
+/* --- メイン画面（トップページ）設定 --- */
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.main .box-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.main .box-line:first-child{
+    margin-bottom: 4rem;
+}
+.main .box{
+    float: left;
+    width: 12rem;
+    height: 12rem;
+    border: 1px solid #a2a2a2;
+    box-sizing: border-box;
+    margin-right: 4rem;
+    overflow: hidden;
+}
+.main .box:nth-child(3n){
+    margin-right: 0;
+}
+.main .box a{
+    color: #35353a;
+}
+.main .box-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 12rem;
+}
+.front{
+    position: relative;
+    font-size: 1.25rem;
+}
+.back{
+    position: relative;
+}
+#theme1{
+    color: white;
+    background-color: #c08e47;
+}
+#theme2{
+    color: white;
+    background-color: #d5848b;
+}
+#theme3{
+    color: white;
+    background-color: #51a1a2;
+}
+

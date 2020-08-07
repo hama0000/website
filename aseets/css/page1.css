@@ -1,0 +1,45 @@
+@charset 'utf-8';
+
+.fixed-bg{
+    width: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.bg-top{
+    background-image: url(../img/sunpu.JPG);
+}
+.page1-title{
+    height: 100vh;
+    width: 100%;
+}
+.page1-title h1{
+    position: absolute;
+    bottom: 5rem;
+    right: 3rem;
+    font-size: 2.5rem;
+    color: white;
+}
+.page1-text{
+    height: 20rem;
+    background: rgba(0, 0, 0, .25);
+    padding: 3rem 0;
+}
+.page1-text h2{
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+.page1-text p{
+    font-size: 1rem;
+    color: white;
+    line-height: 3rem;
+}
+.page1-contents{
+    background: rgba(255, 0, 0, 0);
+}
+
+.img3 img{
+    width: 20%;
+}
