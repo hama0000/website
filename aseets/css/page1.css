@@ -43,21 +43,14 @@
 .img3{
     display: flex;
     justify-content: space-between;
-    height: 300px;
 }
 .img3 div{
     width: 32%;
-    height: auto;
+}
+.img3 img{
+    width: 100%;
+    height: 100%;
     background-size: cover;
-}
-#img1{
-    background-image: url(../img/kumano.JPG);
-}
-#img2{
-    background-image: url(../img/flower.JPG);
-}
-#img3{
-    background-image: url(../img/aokinomori2.JPG);
 }
 
 /* --- コンテンツ --- */
