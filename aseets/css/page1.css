@@ -22,7 +22,6 @@
     color: white;
 }
 .page1-text{
-    height: 20rem;
     background: rgba(0, 0, 0, .25);
     padding: 3rem 0;
 }
@@ -36,10 +35,32 @@
     color: white;
     line-height: 3rem;
 }
-.page1-contents{
-    background: rgba(255, 0, 0, 0);
+
+.page1-text p:last-of-type{
+    margin-bottom: 2rem;
 }
 
-.img3 img{
-    width: 20%;
+.img3{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+.img3 div{
+    width: 32%;
+    height: auto;
+    background-size: cover;
+}
+#img1{
+    background-image: url(../img/kumano.JPG);
+}
+#img2{
+    background-image: url(../img/flower.JPG);
+}
+#img3{
+    background-image: url(../img/aokinomori2.JPG);
+}
+
+/* --- コンテンツ --- */
+.page1-contents{
+    background: rgba(255, 0, 0, 0);
 }
