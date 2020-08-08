@@ -8,7 +8,7 @@
     background-position: center;
 }
 .bg-top{
-    background-image: url(../img/sunpu.JPG);
+    background-image: url(../img/aokinomori2-com.JPG);
 }
 .page1-title{
     height: 100vh;
@@ -22,13 +22,13 @@
     color: white;
 }
 .page1-text{
-    background: rgba(0, 0, 0, .25);
-    padding: 3rem 0;
+    background: rgba(0, 0, 0, .3);
+    padding: 4rem 0;
 }
 .page1-text h2{
     font-size: 2rem;
     color: white;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 .page1-text p{
     font-size: 1rem;
@@ -37,7 +37,7 @@
 }
 
 .page1-text p:last-of-type{
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .img3{
@@ -45,7 +45,7 @@
     justify-content: space-between;
 }
 .img3 div{
-    width: 32%;
+    width: 31%;
 }
 .img3 img{
     width: 100%;
