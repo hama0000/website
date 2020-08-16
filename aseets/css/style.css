@@ -59,7 +59,11 @@ body{
 }
 
 /* --- メイン画面（トップページ）設定 --- */
-.container{
+.container80{
+    width: 80%;
+    margin: 0 auto;
+}
+.container90{
     width: 90%;
     margin: 0 auto;
 }
